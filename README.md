@@ -6,6 +6,8 @@ Premium Problems
 
 [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 
+[implementation](https://github.com/lee-hen/leetcode/tree/main/shortest_distance)
+
 [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)
 
 [245. Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)
