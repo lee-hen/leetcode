@@ -1,6 +1,6 @@
 package shortest_distance
 
-func shortestWordDistance(wordsDict []string, word1 string, word2 string) int {
+func ShortestWordDistance(wordsDict []string, word1 string, word2 string) int {
     wordsIndex := make(map[string]int)
     var distance = len(wordsDict)
     for i, str := range wordsDict {
@@ -31,7 +31,6 @@ func min(arg int, rest ...int) int {
             curr = num
         }
     }
-    
     return curr
 }
 
