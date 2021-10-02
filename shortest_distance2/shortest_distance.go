@@ -21,9 +21,6 @@ func Constructor(wordsDict []string) WordDistance {
 
 func (w *WordDistance) Shortest(word1 string, word2 string) int {
     word1Indices, word2Indices := w.wordsIndices[word1], w.wordsIndices[word2]
-    if len(word1Indices) < len(word2Indices) {
-        word1Indices, word2Indices = word2Indices, word1Indices
-    }
 
     var i, j int
     var shortDistance = math.MaxInt32
