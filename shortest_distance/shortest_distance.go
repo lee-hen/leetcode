@@ -1,6 +1,8 @@
+package shortest_distance
+
 func ShortestDistance(wordsDict []string, word1 string, word2 string) int {
     index1, index2 := -1, -1
-    var distance int
+    var distance = len(wordsDict)
     for i, str := range wordsDict {
         if word1 == str {
             index1 = i
@@ -19,15 +21,11 @@ func abs(x int) int {
     if x < 0 {
         return -x
     }
-    
+
     return x
 }
 
 func min(a, b int) int {
-    if a == 0 {
-        return b
-    }
-
     if a < b {
         return a
     }
