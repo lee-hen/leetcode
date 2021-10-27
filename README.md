@@ -2,8 +2,6 @@
 
 Premium Problems
 
-## Arrays and Strings
-
 | Title | Solution | Difficulty |
 | --- | --- | --- |
 | [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | [Go](https://github.com/lee-hen/leetcode/tree/main/shortest_distance) | Easy | 
@@ -17,19 +15,3 @@ Premium Problems
 | [288. Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) | | |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | |
-
-## Linked Lists
-
-## Stacks And Queues
-
-## Trees And Graphs
-
-## Bit Manipulation
-
-## Math
-
-## Recursion And Dynamic Programming
-
-## Sorting And Searching
-
-## Topological Sort
