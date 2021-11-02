@@ -12,6 +12,6 @@ Premium Problems
 | [249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Go](https://github.com/lee-hen/leetcode/tree/main/group_shifted_strings) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | |
 | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |  [Go](https://github.com/lee-hen/leetcode/tree/main/encode_and_decode_strings) | Medium |
-| [288. Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) | | |
+| [288. Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) | [Go](https://github.com/lee-hen/leetcode/tree/main/unique-word-abbreviation) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | |
