@@ -29,8 +29,8 @@ func (codec *Codec) Decode(strs string) []string {
 	result := make([]string, 0)
 
 	for _, c := range s {
-		builder := new(strings.Builder)
 		if len(c) > 0 {
+			builder := new(strings.Builder)
 			byteString := fmt.Sprintf("%s", c[1:len(c)-1])
 			byteStrings := strings.Split(byteString, " ")
 			for _, byteStr := range byteStrings {
