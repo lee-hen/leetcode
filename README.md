@@ -16,6 +16,7 @@ Premium Problems
 | [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_knight_moves) | Medium |
 | [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Go](https://github.com/lee-hen/leetcode/tree/main/max_stack) | Easy |
 | [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Go](https://github.com/lee-hen/leetcode/tree/main/analyze_user_website_visit_pattern) | Medium |
+| [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | [Go](https://github.com/lee-hen/leetcode/tree/main/sparse_vector) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | Hard |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | Hard |
