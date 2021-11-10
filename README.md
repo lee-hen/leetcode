@@ -19,6 +19,7 @@ Premium Problems
 | [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | [Go](https://github.com/lee-hen/leetcode/tree/main/sparse_vector) | Medium |
 | [356. Line Reflection](https://leetcode.com/problems/line-reflection/) | [Go](https://github.com/lee-hen/leetcode/tree/main/line_reflection) | Medium |
 | [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_hit_counter) | Medium |
+| [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Go](https://github.com/lee-hen/leetcode/tree/main/lowest_common_ancestor_of_a_binary_tree) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | Hard |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | Hard |
