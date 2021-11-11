@@ -21,6 +21,10 @@ Premium Problems
 | [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_hit_counter) | Medium |
 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Go](https://github.com/lee-hen/leetcode/tree/main/lowest_common_ancestor_of_a_binary_tree) | Medium |
 | [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/lowest_common_ancestor_of_a_binary_tree_III) | Medium |
+| [1086. High Five](https://leetcode.com/problems/high-five/) | [Go](https://github.com/lee-hen/leetcode/tree/main/high_five) | Easy |
+| [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Go](https://github.com/lee-hen/leetcode/tree/main/logger_rate_limiter) | Easy |
+| [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Go](https://github.com/lee-hen/leetcode/tree/main/moving_average_from_data_stream) | Easy |
+| [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Go](https://github.com/lee-hen/leetcode/tree/main/meeting-rooms) | Easy |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | Hard |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | Hard |
