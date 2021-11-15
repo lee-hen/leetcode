@@ -25,6 +25,7 @@ Premium Problems
 | [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Go](https://github.com/lee-hen/leetcode/tree/main/logger_rate_limiter) | Easy |
 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Go](https://github.com/lee-hen/leetcode/tree/main/moving_average_from_data_stream) | Easy |
 | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Go](https://github.com/lee-hen/leetcode/tree/main/meeting-rooms) | Easy |
+| [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Go](https://github.com/lee-hen/leetcode/tree/main/binary_tree_vertical_order_traversal) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | Hard |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | Hard |
