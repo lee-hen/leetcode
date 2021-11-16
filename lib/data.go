@@ -1,5 +1,17 @@
 package lib
 
+
+func RandomArray(N, min, max int) []int {
+	array := make([]int, N)
+
+	for j := 0; j < N; j++ {
+		array[j] = RandomIntInRange(min, max)
+	}
+
+	return array
+}
+
+
 func GetListOfWords() []string {
 	// Words in the dictionary.
 	wordList := []string{"the", "of", "and", "a", "to", "in", "is", "be",
