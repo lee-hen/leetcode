@@ -28,6 +28,7 @@ Premium Problems
 | [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Go](https://github.com/lee-hen/leetcode/tree/main/binary_tree_vertical_order_traversal) | Medium |
 | [1762. Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/) | [Go](https://github.com/lee-hen/leetcode/tree/main/buildings_with_an_ocean_view) | Medium |
 | [364. Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/nested_list_weight_sum2) | Medium |
+| [339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/nested_list_weight_sum) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | | Hard |
 | [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | Hard |
