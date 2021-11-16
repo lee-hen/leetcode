@@ -31,5 +31,3 @@ Premium Problems
 | [339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/nested_list_weight_sum) | Medium |
 | [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [Go](https://github.com/lee-hen/leetcode/tree/main/convert_binary_search_tree_to_sorted_doubly_linked_list) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
-| [425. Word Squares](https://leetcode.com/problems/word-squares/) | | Hard |
-| [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | | Hard |
