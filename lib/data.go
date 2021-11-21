@@ -1,5 +1,10 @@
 package lib
 
+import (
+	"math/rand"
+	"time"
+)
+
 func RandomArray(N, min, max int) []int {
 	array := make([]int, N)
 
@@ -8,4 +13,13 @@ func RandomArray(N, min, max int) []int {
 	}
 
 	return array
+}
+
+func RandomInt(n int) int {
+	rand.Seed(time.Now().UnixNano())
+	return rand.Intn(n)
+}
+
+func RandomIntInRange(min, max int) int {
+	return RandomInt(max+1-min) + min
 }

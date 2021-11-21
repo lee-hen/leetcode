@@ -37,12 +37,3 @@ func (t *Tree) GetRandomNode() *TreeNode {
 func (t *Tree) GetRoot() *TreeNode {
 	return t.root
 }
-
-func RandomInt(n int) int {
-	rand.Seed(time.Now().UnixNano())
-	return rand.Intn(n)
-}
-
-func RandomIntInRange(min, max int) int {
-	return RandomInt(max+1-min) + min
-}
