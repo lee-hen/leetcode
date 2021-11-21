@@ -32,4 +32,5 @@ Premium Problems
 | [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [Go](https://github.com/lee-hen/leetcode/tree/main/convert_binary_search_tree_to_sorted_doubly_linked_list) | Medium |
 | [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_cost_to_connect_sticks) | Medium |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Go](https://github.com/lee-hen/leetcode/tree/main/LRU_cache) | Medium |
+| [370. Range Addition](https://leetcode.com/problems/range-addition/) | [Go](https://github.com/lee-hen/leetcode/tree/main/range_addition) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
