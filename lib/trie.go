@@ -36,7 +36,3 @@ func (t *Trie) Contains(prefix string) bool {
 func (t *Trie) GetRoot() *TrieNode {
 	return t.root
 }
-
-func GetTrieDictionary() *Trie {
-	return NewTrie(GetListOfWords())
-}
