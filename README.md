@@ -34,4 +34,5 @@ Premium Problems
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Go](https://github.com/lee-hen/leetcode/tree/main/LRU_cache) | Medium |
 | [370. Range Addition](https://leetcode.com/problems/range-addition/) | [Go](https://github.com/lee-hen/leetcode/tree/main/range_addition) | Medium |
 | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Go](https://github.com/lee-hen/leetcode/tree/main/tic_tac_toe) | Medium |
+| [723. Candy Crush](https://leetcode.com/problems/candy-crush/) | [Go](https://github.com/lee-hen/leetcode/tree/main/candy_crush) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
