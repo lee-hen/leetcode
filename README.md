@@ -36,4 +36,4 @@ Premium Problems
 | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Go](https://github.com/lee-hen/leetcode/tree/main/tic_tac_toe) | Medium |
 | [723. Candy Crush](https://leetcode.com/problems/candy-crush/) | [Go](https://github.com/lee-hen/leetcode/tree/main/candy_crush) | Medium |
 | [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_in_memory_file_system) | Hard |
-| [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | | Hard |
+| [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Go](https://github.com/lee-hen/leetcode/tree/main/alien_dictionary) | Hard |
