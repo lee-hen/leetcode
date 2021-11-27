@@ -37,3 +37,4 @@ Premium Problems
 | [723. Candy Crush](https://leetcode.com/problems/candy-crush/) | [Go](https://github.com/lee-hen/leetcode/tree/main/candy_crush) | Medium |
 | [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_in_memory_file_system) | Hard |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Go](https://github.com/lee-hen/leetcode/tree/main/alien_dictionary) | Hard |
+| [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) | [Go](https://github.com/lee-hen/leetcode/tree/main/number_of_distinct_islands) | Medium |
