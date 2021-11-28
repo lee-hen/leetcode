@@ -1,6 +1,4 @@
-# leetcode 
-
-Premium Problems
+# leetcode problems
 
 | Title | Solution | Difficulty |
 | --- | --- | --- |
@@ -38,3 +36,4 @@ Premium Problems
 | [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_in_memory_file_system) | Hard |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Go](https://github.com/lee-hen/leetcode/tree/main/alien_dictionary) | Hard |
 | [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) | [Go](https://github.com/lee-hen/leetcode/tree/main/number_of_distinct_islands) | Medium |
+| [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Go](https://github.com/lee-hen/leetcode/tree/main/product_of_array_except_self) | Medium |
