@@ -37,3 +37,4 @@
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Go](https://github.com/lee-hen/leetcode/tree/main/alien_dictionary) | Hard |
 | [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) | [Go](https://github.com/lee-hen/leetcode/tree/main/number_of_distinct_islands) | Medium |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Go](https://github.com/lee-hen/leetcode/tree/main/product_of_array_except_self) | Medium |
+| [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [Go](https://github.com/lee-hen/leetcode/tree/main/employee_free_time) | Hard |
