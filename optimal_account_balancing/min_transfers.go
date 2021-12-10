@@ -20,6 +20,7 @@ func MinTransfers(transactions [][]int) int {
 	return dfs(0, balances)
 }
 
+// time complexity O(n^n)
 func dfs(idx int, balances []int) int {
 	if idx == len(balances) {
 		return 0
