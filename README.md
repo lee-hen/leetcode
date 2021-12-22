@@ -39,3 +39,4 @@
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Go](https://github.com/lee-hen/leetcode/tree/main/product_of_array_except_self) | Medium |
 | [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [Go](https://github.com/lee-hen/leetcode/tree/main/employee_free_time) | Hard |
 | [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | [Go](https://github.com/lee-hen/leetcode/tree/main/optimal_account_balancing) | Hard |
+| [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/unique_email_addresses) | Easy |
