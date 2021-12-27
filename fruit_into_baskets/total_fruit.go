@@ -14,9 +14,6 @@ func TotalFruit(fruits []int) int {
 			cnt++
 		} else {
 			cnt = 1
-		}
-
-		if b != kind {
 			a, b = b, kind
 		}
 
