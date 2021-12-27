@@ -42,3 +42,4 @@
 | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/unique_email_addresses) | Easy |
 | [975. Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) | [Go](https://github.com/lee-hen/leetcode/tree/main/odd_even_jump) | Hard |
 | [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | [Go](https://github.com/lee-hen/leetcode/tree/main/license_key_formatting) | Easy |
+| [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | [Go](https://github.com/lee-hen/leetcode/tree/main/fruit_into_baskets) | Medium |
