@@ -13,8 +13,7 @@ func TotalFruit(fruits []int) int {
 		if kind == b {
 			cnt++
 		} else {
-			cnt = 1
-			a, b = b, kind
+			a, b, cnt = b, kind, 1
 		}
 
 		amount = Max(amount, curr)
