@@ -43,3 +43,4 @@
 | [975. Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) | [Go](https://github.com/lee-hen/leetcode/tree/main/odd_even_jump) | Hard |
 | [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | [Go](https://github.com/lee-hen/leetcode/tree/main/license_key_formatting) | Easy |
 | [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | [Go](https://github.com/lee-hen/leetcode/tree/main/fruit_into_baskets) | Medium |
+| [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_substring_without_repeating_characters) | Medium |
