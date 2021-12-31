@@ -10,11 +10,11 @@ func NextPermutation(nums []int)  {
 	}
 
 	if k >= 0 {
-		//Find the largest index l greater than k such that a[l] > a[k].
+		// Find the largest index l greater than k such that a[l] > a[k].
 		var l = -1
 		for i := 0; i < len(nums); i++ {
 			if nums[k] < nums[i] {
-				l = i
+				l = i // index l will never smaller than index k
 			}
 		}
 
