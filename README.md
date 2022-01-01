@@ -47,3 +47,4 @@
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Go](https://github.com/lee-hen/leetcode/tree/main/container_with_most_water) | Medium |
 | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/three_sum) | Medium |
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | [Go](https://github.com/lee-hen/leetcode/tree/main/next_permutation) | Medium |
+| [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Go](https://github.com/lee-hen/leetcode/tree/main/multiply_strings) | Medium |
