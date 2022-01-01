@@ -50,3 +50,4 @@
 | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Go](https://github.com/lee-hen/leetcode/tree/main/multiply_strings) | Medium |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Go](https://github.com/lee-hen/leetcode/tree/main/rotate_image) | Medium |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Go](https://github.com/lee-hen/leetcode/tree/main/jump_game) | Medium |
+| [66. Plus One](https://leetcode.com/problems/plus-one/) | [Go](https://github.com/lee-hen/leetcode/tree/main/plus_one) | Easy |
