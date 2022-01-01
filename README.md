@@ -48,3 +48,4 @@
 | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/three_sum) | Medium |
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | [Go](https://github.com/lee-hen/leetcode/tree/main/next_permutation) | Medium |
 | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Go](https://github.com/lee-hen/leetcode/tree/main/multiply_strings) | Medium |
+| [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Go](https://github.com/lee-hen/leetcode/tree/main/rotate_image) | Medium |
