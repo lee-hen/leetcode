@@ -54,3 +54,4 @@
 | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_window_substring) | Hard |
 | [158. Read N Characters Given read4 II - Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [Go](https://github.com/lee-hen/leetcode/tree/main/read) | Hard |
 | [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_substring_with_at_most_two_distinct_characters) | Medium |
+| [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Go](https://github.com/lee-hen/leetcode/tree/main/missing_ranges) | Easy |
