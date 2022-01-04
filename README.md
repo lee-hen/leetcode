@@ -56,3 +56,4 @@
 | [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_substring_with_at_most_two_distinct_characters) | Medium |
 | [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Go](https://github.com/lee-hen/leetcode/tree/main/missing_ranges) | Easy |
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Go](https://github.com/lee-hen/leetcode/tree/main/next_closest_time) | Medium |
+| [809. Expressive Words](https://leetcode.com/problems/expressive-words/) | [Go](https://github.com/lee-hen/leetcode/tree/main/expressive_words) | Medium |
