@@ -58,3 +58,4 @@
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Go](https://github.com/lee-hen/leetcode/tree/main/next_closest_time) | Medium |
 | [809. Expressive Words](https://leetcode.com/problems/expressive-words/) | [Go](https://github.com/lee-hen/leetcode/tree/main/expressive_words) | Medium |
 | [833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Go](https://github.com/lee-hen/leetcode/tree/main/find_and_replace_in_string) | Medium |
+| [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Go](https://github.com/lee-hen/leetcode/tree/main/maximize_distance_to_closest_person) | Medium |
