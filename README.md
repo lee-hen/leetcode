@@ -61,3 +61,4 @@
 | [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Go](https://github.com/lee-hen/leetcode/tree/main/maximize_distance_to_closest_person) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/valid_parentheses) | Easy |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Go](https://github.com/lee-hen/leetcode/tree/main/backspace_string_compare) | Easy |
+| [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/kth_largest_element_in_an_array) | Medium |
