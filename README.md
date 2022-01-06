@@ -60,3 +60,4 @@
 | [833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Go](https://github.com/lee-hen/leetcode/tree/main/find_and_replace_in_string) | Medium |
 | [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Go](https://github.com/lee-hen/leetcode/tree/main/maximize_distance_to_closest_person) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/valid_parentheses) | Easy |
+| [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Go](https://github.com/lee-hen/leetcode/tree/main/backspace_string_compare) | Easy |
