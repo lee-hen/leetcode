@@ -63,3 +63,4 @@
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Go](https://github.com/lee-hen/leetcode/tree/main/backspace_string_compare) | Easy |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/kth_largest_element_in_an_array) | Medium |
 | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Go](https://github.com/lee-hen/leetcode/tree/main/k_closest_points_to_origin) | Medium |
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_k_sorted_lists) | Hard |
