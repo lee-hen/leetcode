@@ -64,3 +64,4 @@
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/kth_largest_element_in_an_array) | Medium |
 | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Go](https://github.com/lee-hen/leetcode/tree/main/k_closest_points_to_origin) | Medium |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_k_sorted_lists) | Hard |
+| [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Go](https://github.com/lee-hen/leetcode/tree/main/trapping_rain_water) | Hard |
