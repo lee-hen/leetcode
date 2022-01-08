@@ -65,3 +65,4 @@
 | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Go](https://github.com/lee-hen/leetcode/tree/main/k_closest_points_to_origin) | Medium |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_k_sorted_lists) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Go](https://github.com/lee-hen/leetcode/tree/main/trapping_rain_water) | Hard |
+| [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_cost_to_hire_k_workers) | Hard |
