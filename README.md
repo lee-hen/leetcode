@@ -66,3 +66,4 @@
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_k_sorted_lists) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Go](https://github.com/lee-hen/leetcode/tree/main/trapping_rain_water) | Hard |
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_cost_to_hire_k_workers) | Hard |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Go](https://github.com/lee-hen/leetcode/tree/main/median_of_two_sorted_arrays) | Hard |
