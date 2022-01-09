@@ -67,3 +67,4 @@
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Go](https://github.com/lee-hen/leetcode/tree/main/trapping_rain_water) | Hard |
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_cost_to_hire_k_workers) | Hard |
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Go](https://github.com/lee-hen/leetcode/tree/main/median_of_two_sorted_arrays) | Hard |
+| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/find_first_and_last_position_of_element_in_sorted_array) | Medium |
