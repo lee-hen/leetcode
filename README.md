@@ -70,3 +70,4 @@
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/find_first_and_last_position_of_element_in_sorted_array) | Medium |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_intervals) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Go](https://github.com/lee-hen/leetcode/tree/main/insert_interval) | Medium |
+| [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Go](https://github.com/lee-hen/leetcode/tree/main/valid_anagram) | Easy |
