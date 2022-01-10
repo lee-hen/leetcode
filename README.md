@@ -71,3 +71,4 @@
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_intervals) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Go](https://github.com/lee-hen/leetcode/tree/main/insert_interval) | Medium |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Go](https://github.com/lee-hen/leetcode/tree/main/valid_anagram) | Easy |
+| [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/peak_index_in_a_mountain_array) | Easy |
