@@ -78,3 +78,4 @@
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/generate_parentheses) | Medium |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Go](https://github.com/lee-hen/leetcode/tree/main/generate_parentheses) | Medium |
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/lee-hen/leetcode/tree/main/best_time_to_buy_and_sell_stock) | Easy |
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/maximum_subarray) | Easy |
