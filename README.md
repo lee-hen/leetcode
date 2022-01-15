@@ -76,3 +76,4 @@
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_squares) | Hard |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Go](https://github.com/lee-hen/leetcode/tree/main/letter_combinations_of_a_phone_number) | Medium |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/generate_parentheses) | Medium |
+| [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Go](https://github.com/lee-hen/leetcode/tree/main/generate_parentheses) | Medium |
