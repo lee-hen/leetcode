@@ -74,3 +74,4 @@
 | [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Go](https://github.com/lee-hen/leetcode/tree/main/peak_index_in_a_mountain_array) | Easy |
 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Go](https://github.com/lee-hen/leetcode/tree/main/count_of_smaller_numbers_after_self) | Hard |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_squares) | Hard |
+| [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Go](https://github.com/lee-hen/leetcode/tree/main/letter_combinations_of_a_phone_number) | Medium |
