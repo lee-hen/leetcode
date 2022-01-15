@@ -77,3 +77,4 @@
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Go](https://github.com/lee-hen/leetcode/tree/main/letter_combinations_of_a_phone_number) | Medium |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Go](https://github.com/lee-hen/leetcode/tree/main/generate_parentheses) | Medium |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Go](https://github.com/lee-hen/leetcode/tree/main/generate_parentheses) | Medium |
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/lee-hen/leetcode/tree/main/best_time_to_buy_and_sell_stock) | Easy |
