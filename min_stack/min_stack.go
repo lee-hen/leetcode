@@ -22,7 +22,6 @@ func Constructor() MinStack {
 func (s *MinStack) Push(x int)  {
 	newMin := Min(x, s.GetMin())
 	s.stack.PushBack(&NodeWithMin{x, newMin})
-
 }
 
 func (s *MinStack) Pop()  {
