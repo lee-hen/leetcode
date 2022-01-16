@@ -80,3 +80,4 @@
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/lee-hen/leetcode/tree/main/best_time_to_buy_and_sell_stock) | Easy |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/maximum_subarray) | Easy |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_palindromic_substring) | Medium |
+| [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/max_product) | Medium |
