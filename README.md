@@ -13,6 +13,7 @@
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/meeting_rooms) | Medium |
 | [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_knight_moves) | Medium |
 | [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Go](https://github.com/lee-hen/leetcode/tree/main/max_stack) | Easy |
+| [155. Min Stack](https://leetcode.com/problems/min-stack/) | [Go](https://github.com/lee-hen/leetcode/tree/main/min_stack) | Easy |
 | [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Go](https://github.com/lee-hen/leetcode/tree/main/analyze_user_website_visit_pattern) | Medium |
 | [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | [Go](https://github.com/lee-hen/leetcode/tree/main/sparse_vector) | Medium |
 | [356. Line Reflection](https://leetcode.com/problems/line-reflection/) | [Go](https://github.com/lee-hen/leetcode/tree/main/line_reflection) | Medium |
