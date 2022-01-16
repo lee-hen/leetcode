@@ -13,8 +13,8 @@ func MaxProduct(nums []int) int {
 
 	for i := 1; i < len(nums); i++ {
 		curr := nums[i]
-		tempMax := Max(curr, Max(maxSoFar * curr, minSoFar * curr))
-		minSoFar = Min(curr, Min(maxSoFar * curr, minSoFar * curr))
+		tempMax := Max(curr, maxSoFar * curr, minSoFar * curr)
+		minSoFar = Min(curr, maxSoFar * curr, minSoFar * curr)
 
 		maxSoFar = tempMax
 		result = Max(maxSoFar, result)
