@@ -45,4 +45,8 @@ func TestMaxProduct(t *testing.T) {
 	nums = []int{2, -1, -1, 2, 0, -3, 3}
 	require.Equal(t, 4, MaxProduct(nums))
 	require.Equal(t, 4, maxProduct(nums))
+
+	nums = []int{2, -5, 3, 1, -4, 0, -10, 2, 8}
+	require.Equal(t, 120, MaxProduct(nums))
+	require.Equal(t, 120, maxProduct(nums))
 }
