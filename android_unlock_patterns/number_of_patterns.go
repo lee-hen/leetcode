@@ -50,9 +50,9 @@ func numberOfPatterns(m int, n int) int {
 
 	for depth := m; depth <= n; depth++ {
 		seen := make(map[int]bool)
-		for node := 1; node <= 9; node++ {
-			patterns += dfs(node, depth, seen)
-		}
+		patterns += dfs(1, depth, seen) * 4
+		patterns += dfs(2, depth, seen) * 4
+		patterns += dfs(5, depth, seen)
 	}
 
 	return patterns
