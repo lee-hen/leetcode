@@ -82,3 +82,4 @@
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/maximum_subarray) | Easy |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_palindromic_substring) | Medium |
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/max_product) | Medium |
+| [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Go](https://github.com/lee-hen/leetcode/tree/main/android_unlock_patterns) | Medium |
