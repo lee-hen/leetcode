@@ -7,9 +7,8 @@ import (
 
 func SplitArray(nums []int, m int) int {
 	// Find the sum of all elements and the maximum element
-	sum := 0
-	maxElement := math.MinInt32
-	maxElement = Max(maxElement, nums...)
+	sum := Sum(nums)
+	maxElement := Max(math.MinInt32, nums...)
 
 	// Define the left and right boundary of binary search
 	left := maxElement
