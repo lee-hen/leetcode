@@ -9,10 +9,7 @@ func SplitArray(nums []int, m int) int {
 	// Find the sum of all elements and the maximum element
 	sum := 0
 	maxElement := math.MinInt32
-	for _, element := range nums {
-		sum += element
-		maxElement = Max(maxElement, element)
-	}
+	maxElement = Max(maxElement, nums...)
 
 	// Define the left and right boundary of binary search
 	left := maxElement
@@ -79,7 +76,7 @@ func split(idx, k int, nums []int, lastSum int, cache map[string]int) int {
 		eachSum += nums[i]
 		minimizeLarge = Min(minimizeLarge, Max(eachSum, split(i+1, k-1, nums, lastSum-eachSum, cache)))
 
-		// my solution without this, hit time Limit Exceeded
+		// my solution without this, hit time Limit
 		if eachSum >= minimizeLarge {
 			break
 		}
