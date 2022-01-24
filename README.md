@@ -83,3 +83,4 @@
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_palindromic_substring) | Medium |
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/max_product) | Medium |
 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Go](https://github.com/lee-hen/leetcode/tree/main/android_unlock_patterns) | Medium |
+| [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/split_array_largest_sum) | Hard |
