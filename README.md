@@ -85,3 +85,4 @@
 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Go](https://github.com/lee-hen/leetcode/tree/main/android_unlock_patterns) | Medium |
 | [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/split_array_largest_sum) | Hard |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_search2) | Hard |
+| [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Go](https://github.com/lee-hen/leetcode/tree/main/add_two_numbers) | Medium |
