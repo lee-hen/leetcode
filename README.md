@@ -84,3 +84,4 @@
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Go](https://github.com/lee-hen/leetcode/tree/main/max_product) | Medium |
 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Go](https://github.com/lee-hen/leetcode/tree/main/android_unlock_patterns) | Medium |
 | [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/split_array_largest_sum) | Hard |
+| [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_search2) | Hard |
