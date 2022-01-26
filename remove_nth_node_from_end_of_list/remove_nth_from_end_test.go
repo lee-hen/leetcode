@@ -6,10 +6,10 @@ import (
 )
 
 func TestRemoveNthFromEnd(t *testing.T) {
-	require.Equal(t, addMany([]int{1, 2, 3, 5}), RemoveNthFromEnd(addMany([]int{1, 2, 3, 4, 5}), 2))
-	require.Equal(t, addMany([]int{}), RemoveNthFromEnd(addMany([]int{1}), 1))
-	require.Equal(t, addMany([]int{1}), RemoveNthFromEnd(addMany([]int{1, 2}), 1))
-	require.Equal(t, addMany([]int{2}), RemoveNthFromEnd(addMany([]int{1, 2}), 2))
+	require.Equal(t, removeNthFromEnd(addMany([]int{1, 2, 3, 4, 5}), 2), RemoveNthFromEnd(addMany([]int{1, 2, 3, 4, 5}), 2))
+	require.Equal(t, removeNthFromEnd(addMany([]int{1}), 1), RemoveNthFromEnd(addMany([]int{1}), 1))
+	require.Equal(t, removeNthFromEnd(addMany([]int{1, 2}), 1), RemoveNthFromEnd(addMany([]int{1, 2}), 1))
+	require.Equal(t, removeNthFromEnd(addMany([]int{1, 2}), 2), RemoveNthFromEnd(addMany([]int{1, 2}), 2))
 }
 
 func addMany(values []int) *ListNode {

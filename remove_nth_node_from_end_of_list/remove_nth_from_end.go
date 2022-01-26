@@ -6,6 +6,26 @@ type ListNode struct {
 }
 
 func RemoveNthFromEnd(head *ListNode, n int) *ListNode {
+	dummy := new(ListNode)
+	dummy.Next = head
+	first := dummy
+	second := dummy
+
+	// Advances first pointer so that the gap between first and second is n nodes apart
+	for i := 1; i <= n + 1; i++ {
+		first = first.Next
+	}
+
+	// Move first to the end, maintaining the gap
+	for first != nil {
+		first = first.Next
+		second = second.Next
+	}
+	second.Next = second.Next.Next
+	return dummy.Next
+}
+
+func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	length := getLength(head)
 	if length == n {
 		return head.Next
