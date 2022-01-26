@@ -87,3 +87,4 @@
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_search2) | Hard |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Go](https://github.com/lee-hen/leetcode/tree/main/add_two_numbers) | Medium |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Go](https://github.com/lee-hen/leetcode/tree/main/remove_nth_node_from_end_of_list) | Medium |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_two_sorted_lists) | Easy |
