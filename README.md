@@ -89,3 +89,4 @@
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Go](https://github.com/lee-hen/leetcode/tree/main/remove_nth_node_from_end_of_list) | Medium |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_two_sorted_lists) | Easy |
 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Go](https://github.com/lee-hen/leetcode/tree/main/copy_list_with_random_pointer) | Medium |
+| [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Go](https://github.com/lee-hen/leetcode/tree/main/insert_delete_get_random) | Medium |
