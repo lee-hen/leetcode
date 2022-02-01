@@ -90,3 +90,4 @@
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Go](https://github.com/lee-hen/leetcode/tree/main/merge_two_sorted_lists) | Easy |
 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Go](https://github.com/lee-hen/leetcode/tree/main/copy_list_with_random_pointer) | Medium |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Go](https://github.com/lee-hen/leetcode/tree/main/insert_delete_get_random) | Medium |
+| [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_search_autocomplete_system) | Hard |
