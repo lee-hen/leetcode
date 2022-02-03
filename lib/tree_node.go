@@ -1,5 +1,10 @@
 package lib
 
+import (
+	"container/list"
+	"fmt"
+)
+
 type TreeNode struct {
 	Val, size int
 	Left       *TreeNode
@@ -179,5 +184,53 @@ func CreateTreeFromArray(array []int) *TreeNode {
 		return root
 	} else {
 		return nil
+	}
+}
+
+func (t *TreeNode) InOrder() {
+	if t == nil {
+		return
+	}
+
+	t.Left.InOrder()
+	fmt.Println(t.Val)
+	t.Right.InOrder()
+}
+
+func (t *TreeNode) PreOrder() {
+	if t == nil {
+		return
+	}
+
+	fmt.Println(t.Val)
+	t.Left.PreOrder()
+	t.Right.PreOrder()
+}
+
+func (t *TreeNode) PostOrder() {
+	if t == nil {
+		return
+	}
+
+	t.Left.PostOrder()
+	t.Right.PostOrder()
+	fmt.Println(t.Val)
+}
+
+func (t *TreeNode) BFS() {
+	queue := list.New()
+	queue.PushBack(t)
+
+	for queue.Len() != 0 {
+		current := queue.Front()
+		queue.Remove(current)
+
+		treeNode := current.Value.(*TreeNode)
+		fmt.Println(t.Val)
+
+		children := []*TreeNode{treeNode.Left, treeNode.Right}
+		for _, child := range children {
+			queue.PushBack(child)
+		}
 	}
 }
