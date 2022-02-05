@@ -95,3 +95,4 @@
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/binary_tree_maximum_path_sum) | Hard |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Go](https://github.com/lee-hen/leetcode/tree/main/diameter_of_binary_tree) | Easy |
 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Go](https://github.com/lee-hen/leetcode/tree/main/count_complete_tree_nodes) | Medium |
+| [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | [Go](https://github.com/lee-hen/leetcode/tree/main/flip_equivalent_binary_trees) | Medium |

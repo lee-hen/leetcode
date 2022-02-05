@@ -27,7 +27,7 @@ func (c *Codec) Deserialize(data string) *TreeNode {
 }
 
 func rDeserialize(dataArr []string, idx *int) *TreeNode {
-	if dataArr[*idx] == "N" {
+	if *idx >= len(dataArr) || dataArr[*idx] == "N"{
 		return nil
 	}
 
