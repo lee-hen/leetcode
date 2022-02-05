@@ -93,3 +93,4 @@
 | [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Go](https://github.com/lee-hen/leetcode/tree/main/design_search_autocomplete_system) | Hard |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Go](https://github.com/lee-hen/leetcode/tree/main/serialize_and_deserialize_binary_tree) | Hard |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Go](https://github.com/lee-hen/leetcode/tree/main/binary_tree_maximum_path_sum) | Hard |
+| [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Go](https://github.com/lee-hen/leetcode/tree/main/diameter_of_binary_tree) | Easy |
