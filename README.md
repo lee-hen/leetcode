@@ -98,3 +98,4 @@
 | [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | [Go](https://github.com/lee-hen/leetcode/tree/main/flip_equivalent_binary_trees) | Medium |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Go](https://github.com/lee-hen/leetcode/tree/main/number_of_islands) | Medium |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_ladder) | Hard |
+| [246. Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Go](https://github.com/lee-hen/leetcode/tree/main/strobogrammatic_number) | Easy |
