@@ -100,3 +100,4 @@
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Go](https://github.com/lee-hen/leetcode/tree/main/word_ladder) | Hard |
 | [246. Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Go](https://github.com/lee-hen/leetcode/tree/main/strobogrammatic_number) | Easy |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Go](https://github.com/lee-hen/leetcode/tree/main/decode_string) | Medium |
+| [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/course_schedule2) | Medium |
