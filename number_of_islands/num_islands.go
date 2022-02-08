@@ -23,7 +23,7 @@ type node struct {
 }
 
 func traverseNode(i, j int, grid [][]byte, sizes *int)  {
-	currentRiverSize := 0
+	currentSize := 0
 
 	nodesToExplore := list.New()
 	nodesToExplore.PushBack(node{i, j})
@@ -39,7 +39,7 @@ func traverseNode(i, j int, grid [][]byte, sizes *int)  {
 
 		grid[currentNode.row][currentNode.col] = '0'
 
-		currentRiverSize += 1
+		currentSize += 1
 		rowOffset := []int{-1, 0, 1, 0}
 		colOffset := []int{0, 1, 0, -1}
 
@@ -57,7 +57,7 @@ func traverseNode(i, j int, grid [][]byte, sizes *int)  {
 		}
 	}
 
-	if currentRiverSize > 0 {
+	if currentSize > 0 {
 		*sizes++
 	}
 }

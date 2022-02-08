@@ -101,3 +101,4 @@
 | [246. Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Go](https://github.com/lee-hen/leetcode/tree/main/strobogrammatic_number) | Easy |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Go](https://github.com/lee-hen/leetcode/tree/main/decode_string) | Medium |
 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Go](https://github.com/lee-hen/leetcode/tree/main/course_schedule2) | Medium |
+| [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Go](https://github.com/lee-hen/leetcode/tree/main/longest_increasing_path) | Hard |
