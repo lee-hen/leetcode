@@ -105,3 +105,4 @@
 | [753. Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/) | [Go](https://github.com/lee-hen/leetcode/tree/main/cracking_the_safe) | Hard |
 | [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) | [Go](https://github.com/lee-hen/leetcode/tree/main/robot_room_cleaner) | Hard |
 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Go](https://github.com/lee-hen/leetcode/tree/main/evaluate_division) | Medium |
+| [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | [Go](https://github.com/lee-hen/leetcode/tree/main/most_stones_removed_with_same_row_or_column) | Medium |
