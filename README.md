@@ -107,3 +107,4 @@
 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Go](https://github.com/lee-hen/leetcode/tree/main/evaluate_division) | Medium |
 | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | [Go](https://github.com/lee-hen/leetcode/tree/main/most_stones_removed_with_same_row_or_column) | Medium |
 | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Go](https://github.com/lee-hen/leetcode/tree/main/reverse_integer) | Medium |
+| [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Go](https://github.com/lee-hen/leetcode/tree/main/isomorphic_strings) | Easy |
