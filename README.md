@@ -110,3 +110,4 @@
 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Go](https://github.com/lee-hen/leetcode/tree/main/isomorphic_strings) | Easy |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Go](https://github.com/lee-hen/leetcode/tree/main/subsets) | Medium |
 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Go](https://github.com/lee-hen/leetcode/tree/main/jewels_and_stones) | Easy |
+| [939. Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_area_rectangle) | Medium |
