@@ -112,3 +112,4 @@
 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Go](https://github.com/lee-hen/leetcode/tree/main/jewels_and_stones) | Easy |
 | [939. Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | [Go](https://github.com/lee-hen/leetcode/tree/main/minimum_area_rectangle) | Medium |
 | [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Go](https://github.com/lee-hen/leetcode/tree/main/swap_adjacent_in_lr_string) | Medium |
+| [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Go](https://github.com/lee-hen/leetcode/tree/main/bulls_and_cows) | Medium |
