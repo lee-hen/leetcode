@@ -22,7 +22,7 @@ func ThreeSum(nums []int) [][]int {
 					seen[t] = true
 				}
 				left++
-				right -= 1
+				right--
 			} else if currentSum < 0 {
 				left++
 			} else if currentSum > 0 {
@@ -32,4 +32,3 @@ func ThreeSum(nums []int) [][]int {
 	}
 	return triplets
 }
-

@@ -3,11 +3,28 @@
 version = 3
 
 [[package]]
+name = "add_two_numbers"
+version = "0.1.0"
+
+[[package]]
+name = "alien_dictionary"
+version = "0.1.0"
+
+[[package]]
+name = "analyze_user_website_visit_pattern"
+version = "0.1.0"
+
+[[package]]
 name = "main"
 version = "0.1.0"
 dependencies = [
+ "three_sum",
  "two_sum",
 ]
+
+[[package]]
+name = "three_sum"
+version = "0.1.0"
 
 [[package]]
 name = "two_sum"

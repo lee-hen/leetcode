@@ -3,4 +3,8 @@
 members = [
     "main",
     "two_sum",
+    "three_sum",
+    "add_two_numbers",
+    "alien_dictionary",
+    "analyze_user_website_visit_pattern"
 ]
