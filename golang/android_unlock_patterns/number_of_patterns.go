@@ -76,7 +76,7 @@ func dfs(node, depth int, seen map[int]bool) int {
 	return patterns
 }
 
-func getNeighbours(node int, seen map[int]bool) [] int {
+func getNeighbours(node int, seen map[int]bool) []int {
 	neighbours := make([]int, 0)
 	for i := 1; i <= 9; i++ {
 		if node == i {
