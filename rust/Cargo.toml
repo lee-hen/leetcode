@@ -6,5 +6,7 @@ members = [
     "three_sum",
     "add_two_numbers",
     "alien_dictionary",
-    "analyze_user_website_visit_pattern"
+    "analyze_user_website_visit_pattern",
+    "android_unlock_patterns",
+    "backspace_string_compare",
 ]

@@ -15,6 +15,14 @@ name = "analyze_user_website_visit_pattern"
 version = "0.1.0"
 
 [[package]]
+name = "android_unlock_patterns"
+version = "0.1.0"
+
+[[package]]
+name = "backspace_string_compare"
+version = "0.1.0"
+
+[[package]]
 name = "main"
 version = "0.1.0"
 dependencies = [
