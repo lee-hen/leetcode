@@ -1,5 +1,5 @@
-use two_sum;
 use three_sum;
+use two_sum;
 
 fn main() {
     println!("Hello, leetcode!");
@@ -7,6 +7,6 @@ fn main() {
     let target = 9;
     println!("calling two_sum() get {:?}", two_sum::two_sum(nums, target));
 
-    let nums = vec![-1,0,1,2,-1,-4];
+    let nums = vec![-1, 0, 1, 2, -1, -4];
     println!("calling three_sum() get {:?}", three_sum::three_sum(nums));
 }

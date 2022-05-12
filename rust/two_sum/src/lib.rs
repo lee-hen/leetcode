@@ -11,10 +11,10 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 
             let vec = match j {
                 Some(j) => vec![i as i32, *j],
-                None =>  vec![],
+                None => vec![],
             };
 
-            return vec
+            return vec;
         }
         memorize.insert(y, i as i32);
     }
@@ -30,7 +30,7 @@ mod tests {
     fn test_case1() {
         let nums = vec![2, 7, 11, 15];
         let target = 9;
-        let expected: Vec<i32> = vec!{1, 0};
+        let expected: Vec<i32> = vec![1, 0];
 
         assert_eq!(two_sum(nums, target), expected);
     }
@@ -39,7 +39,7 @@ mod tests {
     fn test_case2() {
         let nums = vec![3, 2, 4];
         let target = 6;
-        let expected: Vec<i32> = vec!{2, 1};
+        let expected: Vec<i32> = vec![2, 1];
 
         assert_eq!(two_sum(nums, target), expected);
     }
@@ -48,7 +48,7 @@ mod tests {
     fn test_case3() {
         let nums = vec![3, 3];
         let target = 6;
-        let expected: Vec<i32> = vec!{1, 0};
+        let expected: Vec<i32> = vec![1, 0];
 
         assert_eq!(two_sum(nums, target), expected);
     }

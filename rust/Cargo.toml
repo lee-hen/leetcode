@@ -9,4 +9,5 @@ members = [
     "analyze_user_website_visit_pattern",
     "android_unlock_patterns",
     "backspace_string_compare",
+    "best_time_to_buy_and_sell_stock",
 ]

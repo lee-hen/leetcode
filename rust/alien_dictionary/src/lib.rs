@@ -13,22 +13,22 @@ pub fn alien_order(words: Vec<String>) -> String {
         }
     }
 
-    for i in 0..words.len()-1 {
+    for i in 0..words.len() - 1 {
         let word1 = words.get(i).unwrap();
-        let word2 = words.get(i+1).unwrap();
+        let word2 = words.get(i + 1).unwrap();
 
         if word1.len() > word2.len() && word1.as_bytes().starts_with(word2.as_bytes()) {
             return String::new();
         }
 
-        for j in  0..min(word1.len(), word2.len()) {
+        for j in 0..min(word1.len(), word2.len()) {
             let b1 = word1.as_bytes().get(j).unwrap();
             let b2 = word2.as_bytes().get(j).unwrap();
 
             if b1 != b2 {
                 adj_list.get_mut(b1).unwrap().push(b2);
                 let val = counts.get(b2).unwrap().clone();
-                counts.insert(b2, val+1);
+                counts.insert(b2, val + 1);
 
                 break;
             }
@@ -49,7 +49,7 @@ pub fn alien_order(words: Vec<String>) -> String {
 
         for (_, n) in adj_list.get(front_byte).unwrap().iter().enumerate() {
             let val = counts.get(n).unwrap().clone();
-            let val = val-1;
+            let val = val - 1;
             if val == 0 {
                 queue.push_back(n);
             }
@@ -86,13 +86,13 @@ pub fn alien_order_dfs(words: Vec<String>) -> String {
         let has_cycle = dfs(b, output.as_mut(), mark.borrow_mut(), graph.borrow());
 
         if has_cycle {
-           return String::from("");
+            return String::from("");
         }
     }
 
     match String::from_utf8(output) {
-       Ok(str) => str,
-       Err(..) => String::from(""),
+        Ok(str) => str,
+        Err(..) => String::from(""),
     }
 }
 
@@ -106,14 +106,14 @@ fn build_graph(words: &Vec<String>) -> Result<HashMap<&u8, Vec<&u8>>, String> {
     }
 
     for i in 1..words.len() {
-        let word1 = words.get(i-1).unwrap();
+        let word1 = words.get(i - 1).unwrap();
         let word2 = words.get(i).unwrap();
 
-        if word1.len() > word2.len() && word1.as_bytes().starts_with(word2.as_bytes()){
+        if word1.len() > word2.len() && word1.as_bytes().starts_with(word2.as_bytes()) {
             return Err(String::new());
         }
 
-        for j in  0..min(word1.len(), word2.len()) {
+        for j in 0..min(word1.len(), word2.len()) {
             let b1 = word1.as_bytes().get(j).unwrap();
             let b2 = word2.as_bytes().get(j).unwrap();
 
@@ -126,7 +126,12 @@ fn build_graph(words: &Vec<String>) -> Result<HashMap<&u8, Vec<&u8>>, String> {
     Ok(reverse_adj_list)
 }
 
-fn dfs(b: &u8, output: &mut Vec<u8>, mark: &mut HashMap<u8, State>, g: &HashMap<&u8, Vec<&u8>>) -> bool {
+fn dfs(
+    b: &u8,
+    output: &mut Vec<u8>,
+    mark: &mut HashMap<u8, State>,
+    g: &HashMap<&u8, Vec<&u8>>,
+) -> bool {
     if mark.contains_key(b) {
         return *mark.get(b).unwrap() == State::Visiting;
     }
@@ -146,12 +151,18 @@ fn dfs(b: &u8, output: &mut Vec<u8>, mark: &mut HashMap<u8, State>, g: &HashMap<
 
 #[cfg(test)]
 mod tests {
-    use crate::alien_order_dfs;
     use crate::alien_order;
+    use crate::alien_order_dfs;
 
     #[test]
     fn test_case1() {
-        let words1 = vec!["wrt".to_string(), "wrf".to_string(), "er".to_string(), "ett".to_string(),"rftt".to_string()];
+        let words1 = vec![
+            "wrt".to_string(),
+            "wrf".to_string(),
+            "er".to_string(),
+            "ett".to_string(),
+            "rftt".to_string(),
+        ];
         let words2 = words1.clone();
         let expected = "wertf";
         assert_eq!(alien_order_dfs(words1), expected);

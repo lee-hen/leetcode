@@ -16,7 +16,6 @@ pub fn backspace_compare(s: String, t: String) -> bool {
     backspacing(s) == backspacing(t)
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
