@@ -1,8 +1,10 @@
+const SHARP: u8 = "#".as_bytes()[0];
+
 pub fn backspace_compare(s: String, t: String) -> bool {
     let backspacing = |s: String| -> String {
         let mut buffer: Vec<u8> = Vec::new();
         for c in s.as_bytes() {
-            if *c != "#".as_bytes()[0] {
+            if *c != SHARP {
                 buffer.push(c.clone());
             } else if buffer.len() > 0 {
                 buffer.pop();
