@@ -1,10 +1,7 @@
 pub fn number_of_patterns(m: i32, n: i32) -> i32 {
-    let mut skips: Vec<Vec<usize>> = Vec::new();
+    let mut skips: Vec<Vec<usize>> = vec![Vec::new(); 10];
     for i in 0..10 {
-        skips.push(Vec::new());
-        for _ in 0..10 {
-            skips[i].push(0);
-        }
+        skips[i] = vec![0; 10];
     }
 
     (skips[1][3], skips[3][1]) = (2, 2);

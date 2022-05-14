@@ -130,8 +130,8 @@ fn get_sorted(
     let mut timestamps = timestamps.to_vec();
     timestamps.sort();
 
-    let mut sorted_usernames: Vec<String> = init_vec(usernames.len());
-    let mut sorted_websites: Vec<String> = init_vec(websites.len());
+    let mut sorted_usernames: Vec<String> = vec![String::new(); usernames.len()];
+    let mut sorted_websites: Vec<String> = vec![String::new(); websites.len()];
 
     for (i, timestamp) in timestamps.iter().enumerate() {
         sorted_usernames[i] = usernames[timestamp_indices.get(timestamp).unwrap().clone()].clone();
@@ -148,17 +148,6 @@ fn get_timestamp_indices(timestamps: &Vec<i32>) -> HashMap<i32, usize> {
     }
 
     timestamp_indices
-}
-
-fn init_vec<T>(len: usize) -> Vec<T>
-where
-    T: Default,
-{
-    let mut s = Vec::new();
-    for _ in 0..len {
-        s.push(Default::default());
-    }
-    s
 }
 
 #[cfg(test)]
