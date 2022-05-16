@@ -1,8 +1,8 @@
+use common::*;
 use std::cell::RefCell;
 use std::cmp;
 use std::collections::{HashMap, VecDeque};
 use std::rc::Rc;
-use common::*;
 
 pub fn vertical_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
     if let Some(root) = root {
@@ -75,7 +75,10 @@ mod tests {
         let right = set_right(&root, 20);
         set_left(&right, 15);
         set_right(&right, 7);
-        assert_eq!(vec![vec![9], vec![3, 15], vec![20], vec![7]], vertical_order(root));
+        assert_eq!(
+            vec![vec![9], vec![3, 15], vec![20], vec![7]],
+            vertical_order(root)
+        );
     }
 
     #[test]
@@ -87,7 +90,10 @@ mod tests {
         let right = set_right(&root, 8);
         set_left(&right, 1);
         set_right(&right, 7);
-        assert_eq!(vec![vec![4], vec![9], vec![3, 0, 1], vec![8], vec![7]], vertical_order(root));
+        assert_eq!(
+            vec![vec![4], vec![9], vec![3, 0, 1], vec![8], vec![7]],
+            vertical_order(root)
+        );
     }
 
     #[test]
@@ -102,7 +108,10 @@ mod tests {
         let right = set_right(&root, 8);
         set_left(&right, 1);
         set_right(&right, 7);
-        assert_eq!(vec![vec![4], vec![9, 5], vec![3, 0, 1], vec![8, 2], vec![7]], vertical_order(root));
+        assert_eq!(
+            vec![vec![4], vec![9, 5], vec![3, 0, 1], vec![8, 2], vec![7]],
+            vertical_order(root)
+        );
     }
 
     #[test]

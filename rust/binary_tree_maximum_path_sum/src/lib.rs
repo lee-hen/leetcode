@@ -1,7 +1,7 @@
+use common::*;
 use std::cell::RefCell;
 use std::cmp;
 use std::rc::Rc;
-use common::*;
 
 pub fn max_path_sum(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     let mut max_path = i32::MIN;

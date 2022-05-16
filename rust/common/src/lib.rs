@@ -19,7 +19,6 @@ impl TreeNode {
     }
 }
 
-
 pub fn set_left(node: &Option<Rc<RefCell<TreeNode>>>, val: i32) -> Option<Rc<RefCell<TreeNode>>> {
     let node = Rc::clone(node.as_ref().unwrap());
     let left_node = Rc::clone(&new_tree_node(val).unwrap());
