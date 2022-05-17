@@ -49,6 +49,10 @@ name = "bulls_and_cows"
 version = "0.1.0"
 
 [[package]]
+name = "candy_crush"
+version = "0.1.0"
+
+[[package]]
 name = "common"
 version = "0.1.0"
 
