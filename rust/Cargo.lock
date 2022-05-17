@@ -45,6 +45,10 @@ name = "buildings_with_an_ocean_view"
 version = "0.1.0"
 
 [[package]]
+name = "bulls_and_cows"
+version = "0.1.0"
+
+[[package]]
 name = "common"
 version = "0.1.0"
 
