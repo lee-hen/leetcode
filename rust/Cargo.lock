@@ -53,6 +53,10 @@ name = "candy_crush"
 version = "0.1.0"
 
 [[package]]
+name = "coin_change"
+version = "0.1.0"
+
+[[package]]
 name = "common"
 version = "0.1.0"
 

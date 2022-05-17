@@ -16,4 +16,5 @@ members = [
     "buildings_with_an_ocean_view",
     "bulls_and_cows",
     "candy_crush",
+    "coin_change",
 ]
