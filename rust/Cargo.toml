@@ -17,4 +17,5 @@ members = [
     "bulls_and_cows",
     "candy_crush",
     "coin_change",
+    "container_with_most_water",
 ]
