@@ -18,4 +18,5 @@ members = [
     "candy_crush",
     "coin_change",
     "container_with_most_water",
+    "count_complete_tree_nodes",
 ]
