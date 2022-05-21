@@ -84,6 +84,10 @@ name = "cracking_the_safe"
 version = "0.1.0"
 
 [[package]]
+name = "decode_string"
+version = "0.1.0"
+
+[[package]]
 name = "main"
 version = "0.1.0"
 dependencies = [
