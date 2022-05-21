@@ -21,4 +21,5 @@ members = [
     "count_complete_tree_nodes",
     "count_of_smaller_numbers_after_self",
     "course_schedule2",
+    "cracking_the_safe",
 ]

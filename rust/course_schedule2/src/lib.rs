@@ -70,10 +70,7 @@ impl Course {
     fn add_neighbor(&mut self, node: Rc<RefCell<Course>>) {
         let course_no = Rc::clone(&node).as_ref().borrow().course_no;
 
-        if !self
-            .visited
-            .contains_key(&course_no)
-        {
+        if !self.visited.contains_key(&course_no) {
             self.children.push(Rc::clone(&node));
             self.visited.insert(course_no, Rc::clone(&node));
             Rc::clone(&node).borrow_mut().dependencies += 1;
@@ -126,9 +123,9 @@ mod tests {
 
     #[test]
     fn test_case() {
-        assert_eq!(find_order(
-            4,
-            vec![vec![1, 0], vec![2, 0], vec![3, 1], vec![3, 2]]
-        ), vec![0, 1, 2, 3]);
+        assert_eq!(
+            find_order(4, vec![vec![1, 0], vec![2, 0], vec![3, 1], vec![3, 2]]),
+            vec![0, 1, 2, 3]
+        );
     }
 }
