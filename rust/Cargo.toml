@@ -20,4 +20,5 @@ members = [
     "container_with_most_water",
     "count_complete_tree_nodes",
     "count_of_smaller_numbers_after_self",
+    "course_schedule2",
 ]

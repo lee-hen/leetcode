@@ -76,6 +76,10 @@ name = "count_of_smaller_numbers_after_self"
 version = "0.1.0"
 
 [[package]]
+name = "course_schedule2"
+version = "0.1.0"
+
+[[package]]
 name = "main"
 version = "0.1.0"
 dependencies = [
