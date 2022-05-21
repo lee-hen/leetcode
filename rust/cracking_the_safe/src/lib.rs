@@ -26,11 +26,12 @@ fn dfs(
         return true;
     }
 
-    let mut c: u8 = 48;
     let last = string
         .get((string.len() - (n as usize) + 1)..string.len())
         .unwrap()
         .to_string();
+
+    let mut c: u8 = 48;
     while c < 48 + k {
         let mut new_string = last.clone();
         new_string.push_str(str::from_utf8(&[c]).unwrap());
