@@ -23,4 +23,5 @@ members = [
     "course_schedule2",
     "cracking_the_safe",
     "decode_string",
+    "design_hit_counter",
 ]
