@@ -96,6 +96,13 @@ name = "design_search_autocomplete_system"
 version = "0.1.0"
 
 [[package]]
+name = "diameter_of_binary_tree"
+version = "0.1.0"
+dependencies = [
+ "common",
+]
+
+[[package]]
 name = "main"
 version = "0.1.0"
 dependencies = [

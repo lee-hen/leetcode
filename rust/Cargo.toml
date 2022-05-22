@@ -25,4 +25,5 @@ members = [
     "decode_string",
     "design_hit_counter",
     "design_search_autocomplete_system",
+    "diameter_of_binary_tree",
 ]
