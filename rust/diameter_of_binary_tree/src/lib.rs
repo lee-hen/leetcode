@@ -1,6 +1,6 @@
 use common::*;
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 pub fn diameter_of_binary_tree(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     let mut longest_path = i32::MIN;
@@ -18,12 +18,11 @@ fn helper(t: Option<Rc<RefCell<TreeNode>>>, longest_path: &mut i32) -> i32 {
             let left_height = helper(left, longest_path);
             let right_height = helper(right, longest_path);
             *longest_path = i32::max(longest_path.clone(), left_height + right_height);
-            return i32::max(left_height, right_height) + 1
-        },
+            return i32::max(left_height, right_height) + 1;
+        }
         None => 0,
     }
 }
-
 
 #[cfg(test)]
 mod tests {
