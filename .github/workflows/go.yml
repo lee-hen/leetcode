@@ -3,8 +3,12 @@ name: Go
 on:
   push:
     branches: [ main ]
+    paths: 
+      - 'golang/**'
   pull_request:
     branches: [ main ]
+    paths: 
+      - 'golang/**'
 
 jobs:
 
