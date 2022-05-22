@@ -92,6 +92,10 @@ name = "design_hit_counter"
 version = "0.1.0"
 
 [[package]]
+name = "design_search_autocomplete_system"
+version = "0.1.0"
+
+[[package]]
 name = "main"
 version = "0.1.0"
 dependencies = [

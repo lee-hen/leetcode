@@ -24,4 +24,5 @@ members = [
     "cracking_the_safe",
     "decode_string",
     "design_hit_counter",
+    "design_search_autocomplete_system",
 ]
