@@ -26,4 +26,5 @@ members = [
     "design_hit_counter",
     "design_search_autocomplete_system",
     "diameter_of_binary_tree",
+    "employee_free_time",
 ]
