@@ -27,4 +27,5 @@ members = [
     "design_search_autocomplete_system",
     "diameter_of_binary_tree",
     "employee_free_time",
+    "encode_and_decode_strings",
 ]
