@@ -1,8 +1,9 @@
 pub fn number_of_patterns(m: i32, n: i32) -> i32 {
     let mut skips: Vec<Vec<usize>> = vec![Vec::new(); 10];
-    #[allow(clippy::needless_range_loop)]
-    for i in 0..10 {
-        skips[i] = vec![0; 10];
+    for skip in skips.iter_mut() {
+        for _ in 0..10 {
+            skip.push(0);
+        }
     }
 
     (skips[1][3], skips[3][1]) = (2, 2);
