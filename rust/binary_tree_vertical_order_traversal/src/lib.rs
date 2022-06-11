@@ -26,7 +26,7 @@ fn bfs(root: &Rc<RefCell<TreeNode>>, vertical_orders: &mut HashMap<i32, Vec<i32>
 
         let vertical_order = vertical_orders
             .entry(parent_idx)
-            .or_insert_with(|| vec![Rc::clone(&parent).borrow().val]);
+            .or_insert_with(std::vec::Vec::new);
         vertical_order.push(Rc::clone(&parent).borrow().val);
 
         if Rc::clone(&parent).borrow().left.is_some() {
