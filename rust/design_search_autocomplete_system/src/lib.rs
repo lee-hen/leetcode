@@ -146,7 +146,7 @@ fn build_hot_sentences(sentences: Vec<String>, times: Vec<i32>) -> Vec<Rc<RefCel
     hot_sentences
 }
 
-fn sort_hot_sentences(hot_sentences: &mut Vec<Rc<RefCell<HotSentence>>>) {
+fn sort_hot_sentences(hot_sentences: &mut [Rc<RefCell<HotSentence>>]) {
     hot_sentences.sort_by(|a, b| {
         if a.borrow().hot == b.borrow().hot {
             return a.borrow().word.cmp(&b.borrow().word);
@@ -156,13 +156,14 @@ fn sort_hot_sentences(hot_sentences: &mut Vec<Rc<RefCell<HotSentence>>>) {
     });
 }
 
-fn build_prefix_db(hot_sentences: &Vec<Rc<RefCell<HotSentence>>>) -> HashMap<String, PrefixDB> {
+fn build_prefix_db(hot_sentences: &[Rc<RefCell<HotSentence>>]) -> HashMap<String, PrefixDB> {
     let mut prefix_db = HashMap::new();
     let mut seen: HashMap<String, HashSet<HotSentence>> = HashMap::new();
-    for i in 0..hot_sentences.len() {
+
+    for (i, hot_sentence) in hot_sentences.iter().enumerate() {
         let mut j = 1;
-        while j < hot_sentences[i].borrow().word.len() + 1 {
-            let prefix = hot_sentences[i]
+        while j < hot_sentence.borrow().word.len() + 1 {
+            let prefix = hot_sentence
                 .borrow()
                 .word
                 .get(0..j)
@@ -174,8 +175,8 @@ fn build_prefix_db(hot_sentences: &Vec<Rc<RefCell<HotSentence>>>) -> HashMap<Str
             }
 
             let hot_sentence = HotSentence::new(
-                hot_sentences[i].borrow().word.clone(),
-                hot_sentences[i].borrow().hot,
+                hot_sentence.borrow().word.clone(),
+                hot_sentence.borrow().hot,
             );
 
             if !seen.get(&prefix).unwrap().contains(&hot_sentence) {
@@ -201,9 +202,9 @@ fn build_prefix_db(hot_sentences: &Vec<Rc<RefCell<HotSentence>>>) -> HashMap<Str
             j += 1
         }
         prefix_db
-            .get_mut(&hot_sentences[i].borrow().word)
+            .get_mut(&hot_sentence.borrow().word)
             .unwrap()
-            .hot_sentence = Some(hot_sentences[i].to_owned());
+            .hot_sentence = Some(hot_sentence.to_owned());
     }
     prefix_db
 }

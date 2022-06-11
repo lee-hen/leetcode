@@ -8,13 +8,11 @@ pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
         for a in 1..=amount {
             if a == coin {
                 num_of_coins[a as usize] = 1;
-            } else if coin < a {
-                if num_of_coins[(a - coin) as usize] != i32::MAX {
-                    num_of_coins[a as usize] = cmp::min(
-                        num_of_coins[a as usize],
-                        num_of_coins[(a - coin) as usize] + 1,
-                    );
-                }
+            } else if coin < a && num_of_coins[(a - coin) as usize] != i32::MAX {
+                num_of_coins[a as usize] = cmp::min(
+                    num_of_coins[a as usize],
+                    num_of_coins[(a - coin) as usize] + 1,
+                );
             }
         }
     }

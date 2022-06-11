@@ -15,8 +15,8 @@ impl Element {
 pub fn count_smaller(nums: Vec<i32>) -> Vec<i32> {
     let mut counts: Vec<i32> = vec![0; nums.len()];
     let mut main_array: Vec<Element> = Vec::new();
-    for i in 0..nums.len() {
-        main_array.push(Element::new(nums[i], i))
+    for (i, num) in nums.iter().enumerate() {
+        main_array.push(Element::new(*num, i))
     }
     let mut auxiliary_array: Vec<Element> = Vec::new();
     copy(&mut auxiliary_array, &main_array);
@@ -57,9 +57,9 @@ fn merge_sort_helper(
 }
 
 fn do_merge(
-    main_array: &mut Vec<Element>,
-    auxiliary_array: &mut Vec<Element>,
-    counts: &mut Vec<i32>,
+    main_array: &mut [Element],
+    auxiliary_array: &mut [Element],
+    counts: &mut [i32],
     start_idx: usize,
     middle_idx: usize,
     end_idx: usize,

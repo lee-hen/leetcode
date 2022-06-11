@@ -25,11 +25,11 @@ impl HitCounter {
         }
 
         self.hits.insert(
-            timestamp.clone(),
+            timestamp,
             self.hits.get(&self.last_hit_at).unwrap_or(&0) + 1,
         );
 
-        self.last_hit_at = timestamp.clone();
+        self.last_hit_at = timestamp;
         self.five_minute_split_number = timestamp / FIVE_MINUTES;
     }
 
@@ -45,7 +45,7 @@ impl HitCounter {
         let mut target = 0;
 
         for time in self.hits.keys() {
-            if time.to_owned() <= timestamp - FIVE_MINUTES {
+            if *time <= timestamp - FIVE_MINUTES {
                 target = i32::max(time.to_owned(), target);
             }
         }

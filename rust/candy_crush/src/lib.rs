@@ -1,3 +1,4 @@
+#[allow(clippy::needless_range_loop)]
 pub fn candy_crush(board: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let mut board = board;
     let row_len = board.len();

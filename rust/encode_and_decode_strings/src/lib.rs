@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 struct Codec {}
 
 impl Codec {
@@ -11,24 +12,24 @@ impl Codec {
         for s in strs {
             let bytes = s.as_bytes();
             string.push_str(&*format!("{:?}", bytes));
-            string.push_str(";");
+            string.push(';');
         }
         string
     }
 
     fn decode(&self, s: String) -> Vec<String> {
-        let s = s.split(";");
+        let s = s.split(';');
         let mut result = Vec::new();
 
         for c in s {
-            if c.len() > 0 {
+            if !c.is_empty() {
                 let mut string = String::new();
                 let byte_of_strings = c.get(1..c.len() - 1).unwrap_or("").to_string();
                 let byte_of_strings = byte_of_strings.split(", ");
 
                 for byte_str in byte_of_strings {
                     if !byte_str.is_empty() {
-                        let byte_number = byte_str.parse::<u8>().unwrap_or_else(|_| 0);
+                        let byte_number = byte_str.parse::<u8>().unwrap_or(0);
                         string.push_str(std::str::from_utf8(&[byte_number]).unwrap_or(""));
                     }
                 }

@@ -1,7 +1,7 @@
 use std::cmp;
 
 pub fn max_area(height: Vec<i32>) -> i32 {
-    if height.len() == 0 {
+    if height.is_empty() {
         return 0;
     }
     let mut left_idx = 0;

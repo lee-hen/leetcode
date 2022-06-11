@@ -2,8 +2,7 @@ pub fn find_buildings(heights: Vec<i32>) -> Vec<i32> {
     if heights.len() == 1 {
         return vec![0];
     }
-    let mut ocean_view = Vec::new();
-    ocean_view.push((heights.len() - 1) as i32);
+    let mut ocean_view = vec![(heights.len() - 1) as i32];
     let mut max = heights[heights.len() - 1];
     for i in (0..=heights.len() - 2).rev() {
         if heights[i] > max {

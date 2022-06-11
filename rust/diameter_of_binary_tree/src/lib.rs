@@ -17,8 +17,8 @@ fn helper(t: Option<Rc<RefCell<TreeNode>>>, longest_path: &mut i32) -> i32 {
 
             let left_height = helper(left, longest_path);
             let right_height = helper(right, longest_path);
-            *longest_path = i32::max(longest_path.clone(), left_height + right_height);
-            return i32::max(left_height, right_height) + 1;
+            *longest_path = i32::max(*longest_path, left_height + right_height);
+            i32::max(left_height, right_height) + 1
         }
         None => 0,
     }

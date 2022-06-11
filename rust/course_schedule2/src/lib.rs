@@ -1,4 +1,5 @@
 use std::cell::RefCell;
+use std::collections::hash_map::Entry;
 use std::collections::HashMap;
 use std::rc::Rc;
 
@@ -17,7 +18,7 @@ pub fn find_order(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> Vec<i32> {
 
         let children = Rc::clone(&current).borrow().children.to_owned();
         for child in children.iter() {
-            Rc::clone(&child).borrow_mut().dependencies -= 1;
+            Rc::clone(child).borrow_mut().dependencies -= 1;
         }
         end_of_list = add_non_dependent(&mut order, children, end_of_list);
         to_be_processed += 1;
@@ -27,7 +28,7 @@ pub fn find_order(num_courses: i32, prerequisites: Vec<Vec<i32>>) -> Vec<i32> {
 }
 
 fn add_non_dependent(
-    order: &mut Vec<Option<Rc<RefCell<Course>>>>,
+    order: &mut [Option<Rc<RefCell<Course>>>],
     courses: Vec<Rc<RefCell<Course>>>,
     offset: usize,
 ) -> usize {
@@ -70,9 +71,9 @@ impl Course {
     fn add_neighbor(&mut self, node: Rc<RefCell<Course>>) {
         let course_no = Rc::clone(&node).as_ref().borrow().course_no;
 
-        if !self.visited.contains_key(&course_no) {
+        if let Entry::Vacant(entry) = self.visited.entry(course_no) {
             self.children.push(Rc::clone(&node));
-            self.visited.insert(course_no, Rc::clone(&node));
+            entry.insert(Rc::clone(&node));
             Rc::clone(&node).borrow_mut().dependencies += 1;
         }
     }

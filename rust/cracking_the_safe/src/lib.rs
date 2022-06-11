@@ -4,7 +4,7 @@ use std::str;
 pub fn crack_safe(n: i32, k: i32) -> String {
     let mut string = String::new();
     for _ in 0..n {
-        string.push_str("0");
+        string.push('0');
     }
 
     let mut visited = HashMap::new();

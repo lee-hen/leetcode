@@ -1,5 +1,5 @@
 // Definition for singly-linked list.
-#[derive(PartialEq, Eq, Clone, Debug)]
+#[derive(PartialEq, Eq, Clone, Debug, Default)]
 pub struct ListNode {
     pub val: i32,
     pub next: Option<Box<ListNode>>,
@@ -9,12 +9,6 @@ impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
         ListNode { next: None, val }
-    }
-}
-
-impl Default for ListNode {
-    fn default() -> ListNode {
-        ListNode { next: None, val: 0 }
     }
 }
 

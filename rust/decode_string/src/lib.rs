@@ -3,18 +3,18 @@ use std::str::FromStr;
 pub fn decode_string(s: String) -> String {
     fn decode_string(string: &String, idx: &mut usize) -> String {
         let mut result = String::new();
-        let mut s = string.get(idx.clone()..idx.clone() + 1).unwrap();
-        while idx.clone() < string.len() && s != "]" {
+        let mut s = string.get(*idx..*idx + 1).unwrap();
+        while *idx < string.len() && s != "]" {
             let c = char::from_str(s).unwrap();
 
             if !c.is_digit(10) {
-                result.push_str(&s);
+                result.push_str(s);
                 *idx += 1;
             } else {
                 let mut k = 0;
 
-                while idx.clone() < string.len() {
-                    let s = string.get(idx.clone()..idx.clone() + 1).unwrap();
+                while *idx < string.len() {
+                    let s = string.get(*idx..*idx + 1).unwrap();
                     let c = char::from_str(s).unwrap();
                     if !c.is_digit(10) {
                         break;
@@ -34,7 +34,7 @@ pub fn decode_string(s: String) -> String {
                 }
             }
 
-            if let Some(_s) = string.get(idx.clone()..idx.clone() + 1) {
+            if let Some(_s) = string.get(*idx..*idx + 1) {
                 s = _s;
             }
         }

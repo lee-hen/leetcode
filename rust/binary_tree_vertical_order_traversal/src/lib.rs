@@ -24,14 +24,10 @@ fn bfs(root: &Rc<RefCell<TreeNode>>, vertical_orders: &mut HashMap<i32, Vec<i32>
         let parent = queue.pop_front().unwrap();
         let parent_idx = curr_indices.pop_front().unwrap();
 
-        if vertical_orders.contains_key(&parent_idx) {
-            vertical_orders
-                .get_mut(&parent_idx)
-                .unwrap()
-                .push(Rc::clone(&parent).borrow().val);
-        } else {
-            vertical_orders.insert(parent_idx, vec![Rc::clone(&parent).borrow().val]);
-        }
+        let vertical_order = vertical_orders
+            .entry(parent_idx)
+            .or_insert_with(|| vec![Rc::clone(&parent).borrow().val]);
+        vertical_order.push(Rc::clone(&parent).borrow().val);
 
         if Rc::clone(&parent).borrow().left.is_some() {
             queue.push_back(Rc::clone(&parent).borrow().left.as_ref().unwrap().clone());

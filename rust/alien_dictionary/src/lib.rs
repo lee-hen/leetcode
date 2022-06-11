@@ -27,7 +27,7 @@ pub fn alien_order(words: Vec<String>) -> String {
 
             if b1 != b2 {
                 adj_list.get_mut(b1).unwrap().push(b2);
-                let val = counts.get(b2).unwrap().clone();
+                let val = *counts.get(b2).unwrap();
                 counts.insert(b2, val + 1);
 
                 break;
@@ -43,12 +43,12 @@ pub fn alien_order(words: Vec<String>) -> String {
     }
 
     let mut out_put = Vec::new();
-    while queue.len() > 0 {
+    while !queue.is_empty() {
         let front_byte = queue.pop_front().unwrap();
-        out_put.push(front_byte.clone());
+        out_put.push(*front_byte);
 
         for (_, n) in adj_list.get(front_byte).unwrap().iter().enumerate() {
-            let val = counts.get(n).unwrap().clone();
+            let val = *counts.get(n).unwrap();
             let val = val - 1;
             if val == 0 {
                 queue.push_back(n);
@@ -136,7 +136,7 @@ fn dfs(
         return *mark.get(b).unwrap() == State::Visiting;
     }
 
-    mark.insert(b.clone(), State::Visiting);
+    mark.insert(*b, State::Visiting);
     for (_, n) in g.get(b).unwrap().iter().enumerate() {
         let has_cycle = dfs(n.deref(), output, mark, g);
         if has_cycle {
@@ -144,8 +144,8 @@ fn dfs(
         }
     }
 
-    output.push(b.clone());
-    mark.insert(b.clone(), State::Visited);
+    output.push(*b);
+    mark.insert(*b, State::Visited);
     false
 }
 
@@ -192,8 +192,8 @@ mod tests {
         let actual = alien_order_dfs(words);
 
         match actual {
-            a if a == String::from("bca") => assert_eq!(a, "bca"),
-            a if a == String::from("abc") => assert_eq!(a, "abc"),
+            a if a == *"bca" => assert_eq!(a, "bca"),
+            a if a == *"abc" => assert_eq!(a, "abc"),
             _ => assert_eq!(actual, "bac"),
         }
     }

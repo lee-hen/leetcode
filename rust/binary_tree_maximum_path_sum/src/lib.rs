@@ -6,7 +6,7 @@ use std::rc::Rc;
 pub fn max_path_sum(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     let mut max_path = i32::MIN;
     helper(root, &mut max_path);
-    return max_path;
+    max_path
 }
 
 fn helper(node: Option<Rc<RefCell<TreeNode>>>, max_path: &mut i32) -> i32 {

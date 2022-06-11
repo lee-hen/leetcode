@@ -1,6 +1,3 @@
-use three_sum;
-use two_sum;
-
 fn main() {
     println!("Hello, leetcode!");
     let nums = vec![2, 7, 11, 15];
