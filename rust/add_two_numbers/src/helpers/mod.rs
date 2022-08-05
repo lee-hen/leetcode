@@ -1,7 +1,7 @@
 use crate::ListNode;
 
 pub fn add_many(values: Vec<i32>) -> Option<Box<ListNode>> {
-    if values.len() == 0 {
+    if values.is_empty() {
         return None;
     }
 
@@ -14,9 +14,9 @@ fn add_many_recursive(i: usize, values: Vec<i32>) -> Option<Box<ListNode>> {
     }
 
     let val = values.get(i).unwrap_or(&0);
-    let val = val.clone();
+    let val = *val;
 
-    let more = add_many_recursive(i+1, values);
+    let more = add_many_recursive(i + 1, values);
     let mut list = Box::new(ListNode::new(val));
     list.next = more;
 

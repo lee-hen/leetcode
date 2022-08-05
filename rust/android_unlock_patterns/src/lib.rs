@@ -1,9 +1,8 @@
 pub fn number_of_patterns(m: i32, n: i32) -> i32 {
-    let mut skips: Vec<Vec<usize>> = Vec::new();
-    for i in 0..10 {
-        skips.push(Vec::new());
+    let mut skips: Vec<Vec<usize>> = vec![Vec::new(); 10];
+    for skip in skips.iter_mut() {
         for _ in 0..10 {
-            skips[i].push(0);
+            skip.push(0);
         }
     }
 
@@ -40,12 +39,8 @@ pub fn number_of_patterns(m: i32, n: i32) -> i32 {
         res
     }
 
-    let mut visited: Vec<bool> = Vec::new();
+    let mut visited: Vec<bool> = vec![false; 10];
     let mut res = 0;
-
-    for _ in 0..10 {
-        visited.push(false);
-    }
 
     for i in m..=n {
         res += dfs(&mut visited, &skips, 1, i - 1) * 4; // 1, 3, 7, 9 are symmetric
