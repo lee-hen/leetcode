@@ -3,7 +3,7 @@
 Algorithms + Data Structures = Programs
 
 | Title                                                                                                                                                  | Solution                                                                                                           | Difficulty |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ---------- |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------|
 | [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)                                                                   | [Go](https://github.com/lee-hen/leetcode/tree/main/golang/shortest_distance)                                       | Easy       |
 | [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)                                                             | [Go](https://github.com/lee-hen/leetcode/tree/main/golang/shortest_distance2)                                      | Medium     |
 | [245. Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)                                                           | [Go](https://github.com/lee-hen/leetcode/tree/main/golang/shortest_distance3)                                      | Medium     |
